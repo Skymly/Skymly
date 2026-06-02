@@ -2,22 +2,22 @@
 
 ## What this repo is
 
-- **Type**: Personal GitHub metadata (profile README only; no build, no NuGet).
-- **Remote**: https://github.com/Skymly/.github — GitHub **repository name** is `.github`.
-- **Local path**: `C:\Code\Skymly\Skymly.Github\` — folder name is a **workspace alias** (see `Skymly/AGENTS.md` § GitHub profile repositories).
-- **Authoritative public file**: `profile/README.md` (rendered on https://github.com/Skymly).
+- **Type**: Personal GitHub profile README (no build, no NuGet).
+- **Remote**: https://github.com/Skymly/Skymly — repository name **`Skymly`** (same as the GitHub username).
+- **Local path**: `C:\Code\Skymly\Skymly.Github\` — workspace alias (see `Skymly/AGENTS.md` § GitHub profile repositories).
+- **Authoritative public file**: **`README.md` at repo root** (rendered on https://github.com/Skymly). Do **not** use `profile/README.md` (that path is for **organization** profiles only).
 
 ## Scope
 
-- Edit Markdown in `profile/README.md` and repo-level `README.md` when asked.
-- No solution, tests, or CI unless the user adds workflows later.
+- Edit the root `README.md` when asked to update the profile.
+- Maintainer docs: `docs/repository.md`.
 - Do **not** mix changes with `C:\Code\Skymly\.github\` (MvvmAIO organization profile).
 
 ## Git
 
 - Independent repo; `git` / `gh` only from this directory.
 - Issue / commit / PR language: **English** (workspace default).
-- Commit / push / `gh repo create` only when the user explicitly requests.
+- Commit / push only when the user explicitly requests.
 
 ## Style
 
