@@ -115,6 +115,21 @@ Runnable sample apps for <strong>Events</strong> and <strong>RestAPI</strong> ge
 
 Published **MvvmAIO** packages (collaboration) live on the **[Skym NuGet profile](https://www.nuget.org/profiles/Skym)** — see the [MvvmAIO organization profile](https://github.com/MvvmAIO) for version badges and download stats.
 
+## Suggested pins
+
+GitHub allows up to **six** pinned repositories on your profile. Suggested order (Settings → Customize your pins):
+
+| # | Repository | Rationale |
+|:-:|:---|:---|
+| 1 | [`Skymly/Observables`](https://github.com/Skymly/Observables) | Core suite — Roslyn generators for events, RestAPI, and dual R3 / System.Reactive targets |
+| 2 | [`Skymly/Observables.Docs`](https://github.com/Skymly/Observables.Docs) | VitePress documentation site (English + 简体中文) |
+| 3 | [`Skymly/Observables.Samples`](https://github.com/Skymly/Observables.Samples) | Runnable demos for Events and RestAPI generators |
+| 4 | [`MvvmAIO/Prism.SourceGenerators`](https://github.com/MvvmAIO/Prism.SourceGenerators) | Prism-oriented MVVM source generators (collaboration) |
+| 5 | [`MvvmAIO/MvvmAIO.R3.SourceGenerators`](https://github.com/MvvmAIO/MvvmAIO.R3.SourceGenerators) | R3-targeted MVVM generators in the MvvmAIO ecosystem |
+| 6 | [`MvvmAIO/Prism.SourceGenerators.Docs`](https://github.com/MvvmAIO/Prism.SourceGenerators.Docs) | Docs companion for Prism.SourceGenerators — **chosen over** pinning this profile repo (`Skymly/Skymly`) so all six slots surface product work |
+
+> **Optional swap for pin #6** — Use [`Skymly/Skymly`](https://github.com/Skymly/Skymly) (this profile README) instead of `Prism.SourceGenerators.Docs` if you prefer the landing repo visible among pins.
+
 ## Community
 
 > **How to engage**  
