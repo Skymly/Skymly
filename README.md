@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Skymly">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=900&color=7C3AED&center=true&vCenter=true&multiline=false&repeat=true&width=520&lines=Skymly;.NET+%2B+Roslyn;Observables+%C2%B7+R3+%C2%B7+Rx" alt="Typing header" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&pause=900&color=7C3AED&center=true&vCenter=true&multiline=false&repeat=true&width=520&lines=Skymly;.NET+%2B+Roslyn;Observables+%C2%B7+DesignPatterns" alt="Typing header" />
 </a>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Skymly-181717?style=flat-square&logo=github)](https://github.com/Skymly)
@@ -12,9 +12,10 @@
 
 <br />
 
-**Roslyn source generators for reactive .NET — events, HTTP, SignalR, and dual R3 / System.Reactive targets**
+**Roslyn toolkits for .NET — reactive Observables (R3/Rx) and composable design patterns**
 
 [Observables](https://github.com/Skymly/Observables) ·
+[DesignPatterns](https://github.com/Skymly/DesignPatterns) ·
 [Docs](https://skymly.github.io/Observables.Docs/) ·
 [Samples](https://github.com/Skymly/Observables.Samples) ·
 [NuGet](https://www.nuget.org/profiles/Skymly)
@@ -40,6 +41,21 @@ Suite of <strong>Roslyn</strong> generators bridging .NET events and IO boundari
 <img src="https://img.shields.io/badge/SignalR-realtime-555555?style=flat-square" alt="SignalR" />
 <img src="https://img.shields.io/badge/Roslyn-512BD4?style=flat-square&amp;logo=dotnet&amp;logoColor=white" alt="Roslyn" />
 <img src="https://img.shields.io/badge/R3-7C3AED?style=flat-square" alt="R3" />
+</td>
+</tr>
+<tr><td colspan="2"><hr /></td></tr>
+<tr>
+<td align="center" valign="middle">
+<img src="https://img.shields.io/badge/DesignPatterns-toolkit-0969DA?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="DesignPatterns" />
+</td>
+<td valign="top">
+<strong><a href="https://github.com/Skymly/DesignPatterns">DesignPatterns</a></strong><br />
+<code>Skymly/DesignPatterns</code><br /><br />
+<strong>Open source</strong> design-pattern toolkit — composable runtime primitives plus Roslyn generators, analyzers, and code fixes.<br />
+<img src="https://img.shields.io/badge/MIT-open%20source-333333?style=flat-square" alt="MIT" />
+<img src="https://img.shields.io/badge/early%20preview-555555?style=flat-square" alt="Early preview" />
+<img src="https://img.shields.io/badge/Roslyn-512BD4?style=flat-square&amp;logo=dotnet&amp;logoColor=white" alt="Roslyn" />
+<img src="https://img.shields.io/badge/DI-MS.Extensions-512BD4?style=flat-square" alt="DI" />
 </td>
 </tr>
 <tr><td colspan="2"><hr /></td></tr>
@@ -75,6 +91,7 @@ Runnable sample apps for <strong>Events</strong> and <strong>RestAPI</strong> ge
 
 |  | 方向 | 仓库 | 说明 |
 |--:|:---|:---|:---|
+| ◆ | **DesignPatterns** | [`DesignPatterns`](https://github.com/Skymly/DesignPatterns) | 设计模式运行时 + 源生成器 / 分析器 / CodeFix（**MIT 开源**，早期预览，API 未稳定） |
 | ◆ | **Events** | [`Observables`](https://github.com/Skymly/Observables) | 经典与路由 .NET 事件 → `IObservable` / R3；双路生成器（R3 · System.Reactive） |
 | ◆ | **RestAPI** | [`Observables`](https://github.com/Skymly/Observables) | 声明式类型安全 HTTP 客户端（Refit 式接口 + 源生成） |
 | ◆ | **SignalR** | [`Observables`](https://github.com/Skymly/Observables) | SignalR 实时流与 R3 / Reactive 桥接（预览包已发布） |
