@@ -22,6 +22,13 @@ cd C:\Code\Skymly
 git clone https://github.com/Skymly/Skymly.git Skymly.Github
 ```
 
+## Maintainer docs
+
+| File | Purpose |
+|------|---------|
+| [`docs/bio-draft.md`](bio-draft.md) | Profile bio text + `gh api` snippet |
+| [`docs/pinned-repos.md`](pinned-repos.md) | Suggested pinned repositories (not shown on profile README) |
+
 ## Not to confuse with
 
 | Local path | Remote | Purpose |
