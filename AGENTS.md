@@ -21,5 +21,6 @@
 
 ## Style
 
-- Profile README: English, GitHub-flavored Markdown; badges and links should use stable public URLs.
-- Prefer linking to Skymly-owned repos (`Observables`, `Observables.Docs`, etc.) and clearly separate personal work from [MvvmAIO](https://github.com/MvvmAIO) organization content.
+- **Personal profile**, not a copy of [MvvmAIO/.github](https://github.com/MvvmAIO/.github): avoid org-style mega-tables; prefer narrative sections, compact badge rows, and Skymly-owned repos first.
+- Profile README: English primary with selective 简体中文 labels; GitHub-flavored Markdown; stable public URLs.
+- MvvmAIO: brief mention / footer link only; org NuGet tables belong on the org profile.

@@ -3,12 +3,12 @@
 Set under **GitHub → Settings → Profile → Bio**, or via CLI when authenticated as `Skymly`:
 
 ```powershell
-gh api user -X PATCH -f bio="Roslyn source generators for Observables — reactive .NET (R3/Rx), events & HTTP. MvvmAIO contributor."
+gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx) & DesignPatterns. Hong Kong. Also @ MvvmAIO."
 ```
 
 ## Recommended text
 
-> Roslyn source generators for Observables — reactive .NET (R3/Rx), events & HTTP. MvvmAIO contributor.
+> .NET + Roslyn — Observables (R3/Rx) & DesignPatterns. Hong Kong. Also @ MvvmAIO.
 
 | | |
 |--|--|
