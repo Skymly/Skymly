@@ -1,8 +1,10 @@
 <div align="center">
 
 <a href="https://github.com/Skymly">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=90&lines=Hi%2C+I%27m+Skymly;Building+.NET+%2B+Roslyn;Observables+%26+DesignPatterns" alt="Typing header" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=130&lines=Hi%2C+I%27m+Skymly;Building+.NET+%2B+Roslyn;Observables+%26+DesignPatterns" alt="Typing header" />
 </a>
+
+<br />
 
 [![Location: Hong Kong](https://img.shields.io/badge/location-Hong%20Kong-7C3AED?style=flat-square)](https://github.com/Skymly)
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
