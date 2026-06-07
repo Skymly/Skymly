@@ -27,7 +27,10 @@ Most of my active work lives in two open repos: **[Observables](https://github.c
 
 Rolling **30 days** of commits, PRs, and issues — mostly **[Observables](https://github.com/Skymly/Observables)** and **[DesignPatterns](https://github.com/Skymly/DesignPatterns)**, with **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Skymly&days=30&theme=transparent&hide_border=true&hide_title=true&area=true&color=6B7280&line=7C3AED&point=7C3AED&area_color=DDD6FE&height=200" alt="GitHub activity — last 30 days" width="100%" />
+`commits` · `PRs` · `issues` · rolling **30 days**
+
+<img src="https://streak-stats.demolab.com/?user=Skymly&theme=transparent&hide_border=true&background=00000000&ring=7C3AED&fire=7C3AED&currStreakNum=7C3AED&sideNums=7C3AED&currStreakLabel=7C3AED&sideLabels=7C3AED&dates=6B7280" alt="GitHub streak" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Skymly&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=7C3AED&text_bold=false" alt="GitHub stats" height="165" />
 
 ---
 
@@ -91,12 +94,6 @@ Reactive pairs (`*.Reactive`) and download stats: [nuget.org/profiles/Skymly](ht
 | [StaticMvvm](https://github.com/Skymly/StaticMvvm) | WPF static member binding & change notification |
 | [NeoLuaSamples](https://github.com/Skymly/NeoLuaSamples) | C# ↔ Lua interop with NeoLua |
 | [Wpf.Dialogs](https://github.com/Skymly/Wpf.Dialogs) | Dialog service extracted from Prism patterns |
-
----
-
-## GitHub activity
-
-<img src="https://github-readme-stats.vercel.app/api?username=Skymly&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&include_all_commits=true" alt="GitHub stats" width="420" />
 
 ---
 
