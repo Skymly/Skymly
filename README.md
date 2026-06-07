@@ -29,8 +29,7 @@ Rolling **30 days** of commits, PRs, and issues — mostly **[Observables](https
 
 `commits` · `PRs` · `issues` · rolling **30 days**
 
-<img src="https://streak-stats.demolab.com/?user=Skymly&theme=transparent&hide_border=true&background=00000000&ring=7C3AED&fire=7C3AED&currStreakNum=7C3AED&sideNums=7C3AED&currStreakLabel=7C3AED&sideLabels=7C3AED&dates=6B7280" alt="GitHub streak" height="165" />
-<img src="https://github-readme-stats.vercel.app/api?username=Skymly&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=7C3AED&text_bold=false" alt="GitHub stats" height="165" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Skymly&days=30&hide_border=true&hide_title=true&area=true&grid=false&bg_color=00000000&border_color=00000000&color=9CA3AF&title_color=9CA3AF&line=7C3AED&point=00000000&area_color=7C3AED&height=200&radius=0" alt="GitHub activity — last 30 days" width="480" />
 
 ---
 
