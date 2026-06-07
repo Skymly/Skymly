@@ -6,7 +6,7 @@ Local working copy of the **[Skymly](https://github.com/Skymly) user profile** r
 |--|--|
 | **GitHub repo name** | `Skymly` (must match the **username** exactly) |
 | **Remote** | https://github.com/Skymly/Skymly |
-| **Local folder** | `C:\Code\Skymly\Skymly.Github\` (workspace alias; see `Skymly/AGENTS.md`) |
+| **Workspace folder** | `Skymly/Profile/Skymly.Github/` (local alias; see workspace root [`AGENTS.md`](../../../AGENTS.md)) |
 | **Published content** | **`README.md` at repository root** — shown on https://github.com/Skymly |
 
 ## Why not `Skymly/.github`?
@@ -17,8 +17,10 @@ The **`owner/.github` + `profile/README.md`** layout is for [**organization** pr
 
 ## Clone
 
+From the **workspace root** (the directory that contains `Skymly/` and `AGENTS.md`):
+
 ```powershell
-cd C:\Code\Skymly
+cd Skymly/Profile
 git clone https://github.com/Skymly/Skymly.git Skymly.Github
 ```
 
@@ -31,7 +33,7 @@ git clone https://github.com/Skymly/Skymly.git Skymly.Github
 
 ## Not to confuse with
 
-| Local path | Remote | Purpose |
-|------------|--------|---------|
-| **`Skymly.Github/`** (this repo) | `Skymly/Skymly` | **Personal** profile (`README.md` at root) |
-| **`.github/`** (sibling folder) | `MvvmAIO/.github` | **Organization** profile (`profile/README.md`) |
+| Workspace path | Remote | Purpose |
+|----------------|--------|---------|
+| **`Skymly/Profile/Skymly.Github/`** (this repo) | `Skymly/Skymly` | **Personal** profile (`README.md` at root) |
+| **`MVVMAIO/_org/.github/`** | `MvvmAIO/.github` | **Organization** profile (`profile/README.md`) |

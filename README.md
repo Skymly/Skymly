@@ -23,6 +23,16 @@ Most of my active work lives in two open repos: **[Observables](https://github.c
 
 ---
 
+### Recent activity · 最近 30 天
+
+Rolling **30-day** contributions (commits, PRs, issues) across my repos — private activity included when enabled on the account. Refreshes on each page load.
+
+<a href="https://github.com/Skymly">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Skymly&days=30&theme=transparent&hide_border=true&hide_title=true&area=true&color=9CA3AF&line=7C3AED&point=7C3AED&area_color=C4B5FD&height=220" alt="GitHub activity — last 30 days" />
+</a>
+
+---
+
 ## Projects · 项目
 
 ### [Observables](https://github.com/Skymly/Observables)
