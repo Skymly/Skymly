@@ -28,7 +28,7 @@ Most of my active work lives in two open repos: **[Observables](https://github.c
 Public activity at a glance — stats and languages across my repos.
 
 <a href="https://github.com/Skymly">
-  <img height="165" align="center" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="190" align="center" src="./profile/stats.svg" alt="GitHub stats" />
 </a>
 <a href="https://github.com/Skymly?tab=repositories">
   <img height="165" align="center" src="./profile/top-langs.svg" alt="Top languages" />

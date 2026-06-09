@@ -24,7 +24,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=${{ github.repository_owner }}&show_icons=true&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true&count_private=true
+            username=${{ github.repository_owner }}&show_icons=true&show=reviews&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true&count_private=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
