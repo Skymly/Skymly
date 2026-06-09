@@ -25,7 +25,7 @@ Most of my active work lives in two open repos: **[Observables](https://github.c
 
 ### GitHub · 概览
 
-Public activity at a glance — stats and languages across my repos.
+Public activity at a glance — stats and languages across my repos. The stats card ring shows **Top %** (global percentile; **lower is better**; refreshed daily).
 
 <a href="https://github.com/Skymly">
   <img height="190" align="center" src="./profile/stats.svg" alt="GitHub stats" />
