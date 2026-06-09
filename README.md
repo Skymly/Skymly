@@ -66,7 +66,7 @@ Roslyn generators that turn .NET **events**, **HTTP**, and **SignalR** into **R3
 [![Docs](https://img.shields.io/badge/docs-VitePress-42B883?style=flat-square&logo=vite)](https://skymly.github.io/Observables.Docs/)
 [![Samples](https://img.shields.io/badge/samples-repo-238636?style=flat-square&logo=github)](https://github.com/Skymly/Observables.Samples)
 
-→ [Documentation](https://skymly.github.io/Observables.Docs/) · [Samples](https://github.com/Skymly/Observables.Samples) · [NuGet profile](https://www.nuget.org/profiles/Skymly)
+→ [Documentation](https://skymly.github.io/Observables.Docs/) · [Samples](https://github.com/Skymly/Observables.Samples) · [NuGet profile](https://www.nuget.org/profiles/Skym)
 
 **Preview on nuget.org** (`0.1.0-preview3`):
 
@@ -79,7 +79,7 @@ Roslyn generators that turn .NET **events**, **HTTP**, and **SignalR** into **R3
 <PackageReference Include="R3" Version="1.3.0" />
 ```
 
-Reactive pairs (`*.Reactive`) and download stats: [nuget.org/profiles/Skymly](https://www.nuget.org/profiles/Skymly).
+Reactive pairs (`*.Reactive`) and download stats: [nuget.org/profiles/Skym](https://www.nuget.org/profiles/Skym).
 
 ---
 
