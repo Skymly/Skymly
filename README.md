@@ -28,10 +28,10 @@ Most of my active work lives in two open repos: **[Observables](https://github.c
 Public activity at a glance — stats and languages across my repos.
 
 <a href="https://github.com/Skymly">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api?username=Skymly&show_icons=true&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true&count_private=true" alt="GitHub stats" />
+  <img height="165" align="center" src="./profile/stats.svg" alt="GitHub stats" />
 </a>
 <a href="https://github.com/Skymly?tab=repositories">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Skymly&layout=compact&langs_count=6&card_width=320&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0&size_weight=0.5&count_weight=0.5&exclude_repo=Skymly" alt="Top languages" />
+  <img height="165" align="center" src="./profile/top-langs.svg" alt="Top languages" />
 </a>
 
 ---
@@ -49,10 +49,10 @@ Rolling **30 days** of commits, PRs, and issues — mostly **[Observables](https
 ## Projects · 项目
 
 <a href="https://github.com/Skymly/Observables">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Skymly&repo=Observables&theme=transparent&hide_border=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0" alt="Observables repo card" />
+  <img align="center" src="./profile/pin-observables.svg" alt="Observables repo card" />
 </a>
 <a href="https://github.com/Skymly/DesignPatterns">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Skymly&repo=DesignPatterns&theme=transparent&hide_border=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0" alt="DesignPatterns repo card" />
+  <img align="center" src="./profile/pin-designpatterns.svg" alt="DesignPatterns repo card" />
 </a>
 
 <br />
