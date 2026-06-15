@@ -25,7 +25,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=${{ github.repository_owner }}&show_icons=true&show=reviews&rank_icon=percentile&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true&count_private=true
+            username=${{ github.repository_owner }}&show_icons=true&show=reviews&rank_icon=percentile&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,6 +57,15 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&repo=DesignPatterns&theme=transparent&hide_border=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0
           path: profile/pin-designpatterns.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: >-
+            days=30&hide_border=true&hide_title=true&area=true&grid=false&bg_color=00000000&border_color=00000000&color=9CA3AF&title_color=9CA3AF&line=7C3AED&point=00000000&area_color=7C3AED&height=200&radius=0
+          output_path: profile/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards

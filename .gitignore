@@ -5,5 +5,5 @@ Desktop.ini
 *.swp
 *~
 
-## Local scratch (see ../../../AGENTS.md § `.Local`)
+## Local scratch
 .Local/
