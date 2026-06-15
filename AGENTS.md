@@ -4,14 +4,14 @@
 
 - **Type**: Personal GitHub profile README (no build, no NuGet).
 - **Remote**: https://github.com/Skymly/Skymly — repository name **`Skymly`** (same as the GitHub username).
-- **Workspace path**: `Skymly/Profile/Skymly.Github/` — local folder alias (see workspace root [`AGENTS.md`](../../../AGENTS.md) § GitHub profile repositories).
+- **Workspace path**: `Skymly/Profile/Skymly.Github/` — local folder alias for this repository.
 - **Authoritative public file**: **`README.md` at repo root** (rendered on https://github.com/Skymly). Do **not** use `profile/README.md` (that path is for **organization** profiles only).
 
 ## Scope
 
 - Edit the root `README.md` when asked to update the profile.
 - Maintainer docs: `docs/repository.md`.
-- Do **not** mix changes with [`MVVMAIO/_org/.github/`](../../../../MVVMAIO/_org/.github/) (MvvmAIO organization profile).
+- Do **not** mix changes with [MvvmAIO/.github](https://github.com/MvvmAIO/.github) (organization profile).
 
 ## Git
 

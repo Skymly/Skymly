@@ -6,7 +6,7 @@ Local working copy of the **[Skymly](https://github.com/Skymly) user profile** r
 |--|--|
 | **GitHub repo name** | `Skymly` (must match the **username** exactly) |
 | **Remote** | https://github.com/Skymly/Skymly |
-| **Workspace folder** | `Skymly/Profile/Skymly.Github/` (local alias; see workspace root [`AGENTS.md`](../../../AGENTS.md)) |
+| **Workspace folder** | `Skymly/Profile/Skymly.Github/` (local alias for this repo) |
 | **Published content** | **`README.md` at repository root** — shown on https://github.com/Skymly |
 
 ## Why not `Skymly/.github`?
@@ -17,7 +17,7 @@ The **`owner/.github` + `profile/README.md`** layout is for [**organization** pr
 
 ## Clone
 
-From the **workspace root** (the directory that contains `Skymly/` and `AGENTS.md`):
+From a parent directory that contains a `Skymly/Profile/` folder (adjust paths to your machine):
 
 ```powershell
 cd Skymly/Profile
