@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">&#33853;&#31508;wys' GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 19, Total Commits  : 662, Total PRs: 151, Total PRs Reviewed: 57, Total Issues: 112, Contributed to (last year): 9</desc>
+        <title id="titleId">&#33853;&#31508;wys' GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 32, Total Commits  : 682, Total PRs: 151, Total PRs Reviewed: 57, Total Issues: 112, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -79,7 +79,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 101.37626458245805;
+        stroke-dashoffset: 91.3875029118867;
       }
     }
   
@@ -133,8 +133,8 @@
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
-        <text x="-5" y="-8" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon" class="rank-grade">B+</text>
-        <text x="-5" y="10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="percentile-rank-value" class="rank-percentile-compact">Top 40.3%</text>
+        <text x="-5" y="-8" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon" class="rank-grade">A-</text>
+        <text x="-5" y="10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="percentile-rank-value" class="rank-percentile-compact">Top 36.4%</text>
       </g>
       </g>
     <svg x="0" y="0">
@@ -151,7 +151,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >19</text>
+      >32</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -166,7 +166,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >662</text>
+      >682</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
