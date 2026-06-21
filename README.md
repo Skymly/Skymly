@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Skymly">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=130&lines=Hi%2C+I%27m+Skymly;Building+.NET+%2B+Roslyn;Observables+%26+DesignPatterns" alt="Typing header" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=130&lines=Skymly+%2F+落笔wys;Compile-time+reactive+codegen+for+.NET;Observables+%C2%B7+DesignPatterns+%C2%B7+MvvmAIO" alt="Typing header" />
 </a>
 
 <br />
@@ -17,111 +17,74 @@
 
 ### About · 关于
 
-I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — I write **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting.
+I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — I write **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting. Most of my active work lives in two open repos: **[Observables](https://github.com/Skymly/Observables)** (reactive boundaries with R3 / System.Reactive) and **[DesignPatterns](https://github.com/Skymly/DesignPatterns)** (composable patterns + Roslyn diagnostics). I also contribute to **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps with MVVM generators.
 
-Most of my active work lives in two open repos: **[Observables](https://github.com/Skymly/Observables)** (reactive boundaries with R3 / System.Reactive) and **[DesignPatterns](https://github.com/Skymly/DesignPatterns)** (composable patterns + Roslyn diagnostics). I also contribute to **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps with MVVM generators.
-
----
-
-### GitHub · 概览
-
-Public activity at a glance — stats and languages across my repos. The stats card ring shows **grade + Top %** stacked (global percentile; **lower is better**; refreshed daily).
-
-<a href="https://github.com/Skymly">
-  <img height="190" align="center" src="./profile/stats.svg" alt="GitHub stats" />
-</a>
-<a href="https://github.com/Skymly?tab=repositories">
-  <img height="165" align="center" src="./profile/top-langs.svg" alt="Top languages" />
-</a>
+我是 **Skymly**（[落笔wys](https://github.com/Skymly)）—— 写 **C# / .NET** 库，靠**编译期代码生成**和**精简的运行时原语**干活。主要活跃在两个开源仓库：**[Observables](https://github.com/Skymly/Observables)**（基于 R3 / System.Reactive 的响应式边界）和 **[DesignPatterns](https://github.com/Skymly/DesignPatterns)**（可组合设计模式 + Roslyn 诊断）。也会在 **[MvvmAIO](https://github.com/MvvmAIO)** 协作 MVVM 生成器相关的工作。
 
 ---
 
-### Recent activity · 最近 30 天
-
-Rolling **30 days** of commits, PRs, and issues — mostly **[Observables](https://github.com/Skymly/Observables)** and **[DesignPatterns](https://github.com/Skymly/DesignPatterns)**, with **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps.
-
-`commits` · `PRs` · `issues` · rolling **30 days**
-
-<img src="./profile/activity-graph.svg" alt="GitHub activity — last 30 days" width="480" />
-
----
-
-## Projects · 项目
-
-<a href="https://github.com/Skymly/Observables">
-  <img align="center" src="./profile/pin-observables.svg" alt="Observables repo card" />
-</a>
-<a href="https://github.com/Skymly/DesignPatterns">
-  <img align="center" src="./profile/pin-designpatterns.svg" alt="DesignPatterns repo card" />
-</a>
-
-<br />
+## Featured · 主推
 
 ### [Observables](https://github.com/Skymly/Observables)
 
 Roslyn generators that turn .NET **events**, **HTTP**, and **SignalR** into **R3** or **System.Reactive** streams — pick one reactive stack per app.
 
-`Events` · `RestAPI` · `SignalR` · dual `R3` / `Reactive` packages
+Roslyn 生成器，把 .NET 的 **事件**、**HTTP**、**SignalR** 转成 **R3** 或 **System.Reactive** 流——每个应用选一种响应式栈。
 
 [![Docs](https://img.shields.io/badge/docs-VitePress-42B883?style=flat-square&logo=vite)](https://skymly.github.io/Observables.Docs/)
 [![Samples](https://img.shields.io/badge/samples-repo-238636?style=flat-square&logo=github)](https://github.com/Skymly/Observables.Samples)
-
-→ [Documentation](https://skymly.github.io/Observables.Docs/) · [Samples](https://github.com/Skymly/Observables.Samples) · [NuGet profile](https://www.nuget.org/profiles/Skym)
-
-**Preview on nuget.org** (`0.1.0-preview3`):
-
 [![Observables.Events.R3](https://img.shields.io/nuget/v/Observables.Events.R3?style=flat-square&logo=nuget&label=Events.R3)](https://www.nuget.org/packages/Observables.Events.R3)
 [![Observables.RestAPI.R3](https://img.shields.io/nuget/v/Observables.RestAPI.R3?style=flat-square&logo=nuget&label=RestAPI.R3)](https://www.nuget.org/packages/Observables.RestAPI.R3)
 [![Observables.SignalR.R3](https://img.shields.io/nuget/v/Observables.SignalR.R3?style=flat-square&logo=nuget&label=SignalR.R3)](https://www.nuget.org/packages/Observables.SignalR.R3)
 
-```xml
-<PackageReference Include="Observables.Events.R3" Version="0.1.0-preview3" />
-<PackageReference Include="R3" Version="1.3.0" />
-```
-
-Reactive pairs (`*.Reactive`) and download stats: [nuget.org/profiles/Skym](https://www.nuget.org/profiles/Skym).
+→ [Documentation](https://skymly.github.io/Observables.Docs/) · [Samples](https://github.com/Skymly/Observables.Samples) · [NuGet profile](https://www.nuget.org/profiles/Skym) — `*.Reactive` pairs and download stats on NuGet.
 
 ---
 
 ### [DesignPatterns](https://github.com/Skymly/DesignPatterns)
 
-**MIT · open source · early preview** — lightweight pattern primitives (chain, strategy, factory registry, singleton, …) with **source generators**, **analyzers** (`DP###`), and **code fixes**. Composition over inheritance; not a MediatR-style framework.
+Lightweight pattern primitives — chain, strategy, factory registry, singleton, … — with **source generators**, **analyzers** (`DP###`), and **code fixes**. Composition over inheritance; not a MediatR-style framework.
+
+轻量级模式原语——chain、strategy、factory registry、singleton 等——配 **源生成器**、**分析器**（`DP###`）和 **代码修复**。组合优于继承；不是 MediatR 风格的框架。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-333333?style=flat-square)](https://github.com/Skymly/DesignPatterns/blob/main/LICENSE)
 [![early preview](https://img.shields.io/badge/status-early%20preview-555555?style=flat-square)](https://github.com/Skymly/DesignPatterns#project-status-早期阶段)
 
-→ [ROADMAP](https://github.com/Skymly/DesignPatterns/blob/main/docs/ROADMAP.md) · [samples](https://github.com/Skymly/DesignPatterns/tree/main/samples) · NuGet packaging when API stabilizes
+→ [ROADMAP](https://github.com/Skymly/DesignPatterns/blob/main/docs/ROADMAP.md) · [Samples](https://github.com/Skymly/DesignPatterns/tree/main/samples) · NuGet packaging when API stabilizes.
 
 ---
 
-## Stack
+## Now · 当前
 
-| Layer | Tools |
-|-------|--------|
-| Language | C#, .NET (`netstandard2.0` / `net8.0`) |
-| Compile-time | Roslyn source generators & analyzers |
-| Reactive | [R3](https://github.com/Cysharp/R3), [System.Reactive](https://github.com/dotnet/reactive) |
-| Docs | [VitePress](https://vitepress.dev/) (Observables.Docs) |
-| UI background | WPF / MVVM (older public repos below) |
+Focused on Roslyn source generators and reactive codegen for .NET. Active across **Observables**, **DesignPatterns**, and **MvvmAIO** when it overlaps with MVVM generators.
+
+专注于 .NET 的 Roslyn 源生成器与响应式代码生成。活跃于 **Observables**、**DesignPatterns**，以及 MVVM 生成器相关时的 **MvvmAIO**。
+
+## Stats · 概览
+
+<a href="https://github.com/Skymly">
+  <img height="180" align="center" src="./profile/stats.svg" alt="GitHub stats" />
+</a>
+<a href="https://github.com/Skymly?tab=repositories">
+  <img height="160" align="center" src="./profile/top-langs.svg" alt="Top languages" />
+</a>
+
+<br />
+
+<img src="./profile/activity-graph.svg" alt="GitHub activity — last 30 days" width="480" />
 
 ---
 
-## Earlier public repos · 更早的开源
-
-| Repo | Note |
-|------|------|
-| [StaticMvvm](https://github.com/Skymly/StaticMvvm) | WPF static member binding & change notification |
-| [NeoLuaSamples](https://github.com/Skymly/NeoLuaSamples) | C# ↔ Lua interop with NeoLua |
-| [Wpf.Dialogs](https://github.com/Skymly/Wpf.Dialogs) | Dialog service extracted from Prism patterns |
-
----
-
-## Say hi · 交流
+## Contact · 交流
 
 Issues and small, focused PRs are welcome in each repo's tracker.
 
-| Repo | Link |
-|------|------|
+欢迎在各仓库的 issue 里交流，也欢迎小而聚焦的 PR。
+
+[![QQ](https://img.shields.io/badge/QQ-3023066532-1BA1E6?style=flat-square&logo=tencentqq&logoColor=white)](tencent://message/?uin=3023066532&Site=&Menu=yes)
+
+| | |
+|--|--|
 | Observables | [issues](https://github.com/Skymly/Observables/issues) |
 | DesignPatterns | [issues](https://github.com/Skymly/DesignPatterns/issues) |
 | Docs / Samples | [Observables.Docs](https://github.com/Skymly/Observables.Docs/issues) · [Observables.Samples](https://github.com/Skymly/Observables.Samples/issues) |
