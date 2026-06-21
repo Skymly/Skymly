@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Skymly">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=130&lines=Skymly+%2F+落笔wys;Compile-time+reactive+codegen+for+.NET;Observables+%C2%B7+DesignPatterns+%C2%B7+MvvmAIO" alt="Typing header" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=7C3AED&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=130&lines=Skymly+%2F+%E8%90%BD%E7%AC%94wys;Compile-time+reactive+codegen+for+.NET;Observables+%C2%B7+DesignPatterns+%C2%B7+MvvmAIO" alt="Typing header" />
 </a>
 
 <br />
