@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="242.69"
+          width="242.68"
           height="8"
           fill="#178600"
         />
@@ -124,7 +124,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="242.69"
+          x="242.68"
           y="0"
           width="19.22"
           height="8"
@@ -134,7 +134,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="251.91"
+          x="251.9"
           y="0"
           width="19.11"
           height="8"
@@ -144,7 +144,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="261.02"
+          x="261.01"
           y="0"
           width="16.6"
           height="8"
@@ -154,7 +154,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="267.62"
+          x="267.61"
           y="0"
           width="11.55"
           height="8"
@@ -164,7 +164,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="269.17"
+          x="269.16"
           y="0"
           width="10.84"
           height="8"
@@ -177,21 +177,21 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#178600" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 89.89%
+        C# 89.88%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 3.41%
+        PowerShell 3.42%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 3.37%
+        TypeScript 3.38%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
