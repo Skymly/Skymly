@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="140"
-        viewBox="0 0 400 140"
+        height="150"
+        viewBox="0 0 400 150"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -114,10 +114,10 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Design patterns toolkit library for .NET with Roslyn</tspan><tspan dy="1.2em" x="25">integration</tspan>
+      <tspan dy="1.2em" x="25">.NET design patterns toolkit: composable runtime primitives</tspan><tspan dy="1.2em" x="25">+ Roslyn source generators + diagnostics. Singleton, Factory,</tspan><tspan dy="1.2em" x="25">Strategy, Chain, Composite, Decorator, Event Aggregator,...</tspan>
     </text>
 
-    <g transform="translate(30, 65)">
+    <g transform="translate(30, 75)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
       <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#178600" />
@@ -137,7 +137,7 @@
     </g><g transform="translate(20, 0)"><text data-testid="stargazers" class="gray">7</text></g></g>
     </g>
     
-  <svg x="0" y="0"><g transform="translate(-3, 88)">
+  <svg x="0" y="0"><g transform="translate(-3, 98)">
       
     </g></svg>
     
