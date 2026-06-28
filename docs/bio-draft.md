@@ -3,16 +3,16 @@
 Set under **GitHub → Settings → Profile → Bio**, or via CLI when authenticated as `Skymly`:
 
 ```powershell
-gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx) & DesignPatterns. Hong Kong. Also @ MvvmAIO."
+gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx) & DesignPatterns. IsaacAgent: AI for Isaac Lua mods. Hong Kong. @MvvmAIO."
 ```
 
 ## Recommended text
 
-> .NET + Roslyn — Observables (R3/Rx) & DesignPatterns. Hong Kong. Also @ MvvmAIO.
+> .NET + Roslyn — Observables (R3/Rx) & DesignPatterns. IsaacAgent: AI for Isaac Lua mods. Hong Kong. @MvvmAIO.
 
 | | |
 |--|--|
-| **Length** | 99 characters (GitHub bio limit ~160) |
+| **Length** | ~109 characters (GitHub bio limit ~160) |
 | **Tone** | Professional, personable; aligned with [profile README](../README.md) |
 | **Replaces** | Informal / literary prior bio |
 

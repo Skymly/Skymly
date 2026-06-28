@@ -17,9 +17,9 @@
 
 ### About · 关于
 
-I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — I write **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting. Most of my active work lives in two open repos: **[Observables](https://github.com/Skymly/Observables)** (reactive boundaries with R3 / System.Reactive) and **[DesignPatterns](https://github.com/Skymly/DesignPatterns)** (composable patterns + Roslyn diagnostics). I also contribute to **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps with MVVM generators.
+I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — I write **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting, and I build **AI coding agents** on the side. My active work spans three open repos: **[Observables](https://github.com/Skymly/Observables)** (reactive boundaries with R3 / System.Reactive), **[DesignPatterns](https://github.com/Skymly/DesignPatterns)** (composable patterns + Roslyn diagnostics), and **[IsaacAgent](https://github.com/Skymly/IsaacAgent)** (an AI coding agent for Binding of Isaac: Repentance Lua mods). I also contribute to **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps with MVVM generators.
 
-我是 **Skymly**（[落笔wys](https://github.com/Skymly)）—— 写 **C# / .NET** 库，靠**编译期代码生成**和**精简的运行时原语**干活。主要活跃在两个开源仓库：**[Observables](https://github.com/Skymly/Observables)**（基于 R3 / System.Reactive 的响应式边界）和 **[DesignPatterns](https://github.com/Skymly/DesignPatterns)**（可组合设计模式 + Roslyn 诊断）。也会在 **[MvvmAIO](https://github.com/MvvmAIO)** 协作 MVVM 生成器相关的工作。
+我是 **Skymly**（[落笔wys](https://github.com/Skymly)）—— 写 **C# / .NET** 库，靠**编译期代码生成**和**精简的运行时原语**干活，业余也做 **AI 编程助手**。主要活跃在三个开源仓库：**[Observables](https://github.com/Skymly/Observables)**（基于 R3 / System.Reactive 的响应式边界）、**[DesignPatterns](https://github.com/Skymly/DesignPatterns)**（可组合设计模式 + Roslyn 诊断），以及 **[IsaacAgent](https://github.com/Skymly/IsaacAgent)**（面向《以撒的结合·重生》Lua mod 的 AI 编程助手）。也会在 **[MvvmAIO](https://github.com/MvvmAIO)** 协作 MVVM 生成器相关的工作。
 
 ---
 
@@ -54,11 +54,27 @@ Lightweight pattern primitives — chain, strategy, factory registry, singleton,
 
 ---
 
+### [IsaacAgent](https://github.com/Skymly/IsaacAgent)
+
+An AI coding agent for **The Binding of Isaac: Repentance** Lua mod development — a Cursor/OpenCode-style desktop app with Isaac-specific knowledge, tools, and workflows built in. Local RAG over 480+ modding docs, 16 agent tools, 9 task skills, and multi-provider LLM (OpenAI-compatible / Ollama). Built with .NET 8 + Avalonia 11.
+
+面向 **《以撒的结合·重生》** Lua mod 开发的 AI 编程助手——Cursor/OpenCode 风格的桌面应用，内置 Isaac 专属知识、工具与工作流。本地 RAG 覆盖 480+ 模组文档，16 个 agent 工具，9 个任务技能，多 LLM 提供方（OpenAI 兼容 / Ollama）。基于 .NET 8 + Avalonia 11。
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-333333?style=flat-square)](https://github.com/Skymly/IsaacAgent/blob/main/LICENSE)
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Avalonia 11](https://img.shields.io/badge/Avalonia-11-01A0E9?style=flat-square)](https://avaloniaui.net/)
+[![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/Skymly/IsaacAgent)
+[![CI](https://github.com/Skymly/IsaacAgent/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/Skymly/IsaacAgent/actions/workflows/build-and-test.yml)
+
+→ [Quick start](https://github.com/Skymly/IsaacAgent#quick-start) · [Skills](https://github.com/Skymly/IsaacAgent#skills) · [Agent tools](https://github.com/Skymly/IsaacAgent#agent-tools) · Build from source or publish a single-file exe.
+
+---
+
 ## Now · 当前
 
-Focused on Roslyn source generators and reactive codegen for .NET. Active across **Observables**, **DesignPatterns**, and **MvvmAIO** when it overlaps with MVVM generators.
+Focused on Roslyn source generators, reactive codegen for .NET, and an AI coding agent for Isaac modding. Active across **Observables**, **DesignPatterns**, **IsaacAgent**, and **MvvmAIO** when it overlaps with MVVM generators.
 
-专注于 .NET 的 Roslyn 源生成器与响应式代码生成。活跃于 **Observables**、**DesignPatterns**，以及 MVVM 生成器相关时的 **MvvmAIO**。
+专注于 .NET 的 Roslyn 源生成器、响应式代码生成，以及面向 Isaac 模组的 AI 编程助手。活跃于 **Observables**、**DesignPatterns**、**IsaacAgent**，以及 MVVM 生成器相关时的 **MvvmAIO**。
 
 ## Stats · 概览
 
@@ -87,6 +103,7 @@ Issues and small, focused PRs are welcome in each repo's tracker.
 |--|--|
 | Observables | [issues](https://github.com/Skymly/Observables/issues) |
 | DesignPatterns | [issues](https://github.com/Skymly/DesignPatterns/issues) |
+| IsaacAgent | [issues](https://github.com/Skymly/IsaacAgent/issues) |
 | Docs / Samples | [Observables.Docs](https://github.com/Skymly/Observables.Docs/issues) · [Observables.Samples](https://github.com/Skymly/Observables.Samples/issues) |
 
 Also active in the [MvvmAIO](https://github.com/MvvmAIO) org — org packages on [Skym @ NuGet](https://www.nuget.org/profiles/Skym).
