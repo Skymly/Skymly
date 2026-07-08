@@ -5,7 +5,7 @@ GitHub allows up to **six** pinned repositories. Configure under **Profile → C
 | # | Repository | Rationale |
 |:-:|:---|:---|
 | 1 | [`Skymly/Observables`](https://github.com/Skymly/Observables) | Reactive Roslyn generators — events, RestAPI, SignalR (R3 / System.Reactive) |
-| 2 | [`Skymly/DesignPatterns`](https://github.com/Skymly/DesignPatterns) | Open-source design-pattern toolkit + Roslyn integration (early preview) |
+| 2 | [`Skymly/DesignPatterns`](https://github.com/Skymly/DesignPatterns) | Design-pattern toolkit + Roslyn — [`Skymly.DesignPatterns`](https://www.nuget.org/packages/Skymly.DesignPatterns) on NuGet |
 | 3 | [`Skymly/IsaacAgent`](https://github.com/Skymly/IsaacAgent) | AI coding agent for Binding of Isaac: Repentance Lua mods (.NET 8 + Avalonia) |
 | 4 | [`Skymly/Observables.Docs`](https://github.com/Skymly/Observables.Docs) | VitePress documentation (English + 简体中文) |
 | 5 | [`Skymly/Observables.Samples`](https://github.com/Skymly/Observables.Samples) | Runnable Observables demos |

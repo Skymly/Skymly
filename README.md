@@ -48,9 +48,11 @@ Lightweight pattern primitives — chain, strategy, factory registry, singleton,
 轻量级模式原语——chain、strategy、factory registry、singleton 等——配 **源生成器**、**分析器**（`DP###`）和 **代码修复**。组合优于继承；不是 MediatR 风格的框架。
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-333333?style=flat-square)](https://github.com/Skymly/DesignPatterns/blob/main/LICENSE)
-[![early preview](https://img.shields.io/badge/status-early%20preview-555555?style=flat-square)](https://github.com/Skymly/DesignPatterns#project-status-早期阶段)
+[![Docs](https://img.shields.io/badge/docs-VitePress-42B883?style=flat-square&logo=vite)](https://skymly.github.io/DesignPatterns.Docs/)
+[![Samples](https://img.shields.io/badge/samples-repo-238636?style=flat-square&logo=github)](https://github.com/Skymly/DesignPatterns.Samples)
+[![Skymly.DesignPatterns](https://img.shields.io/nuget/v/Skymly.DesignPatterns?style=flat-square&logo=nuget&label=Skymly.DesignPatterns)](https://www.nuget.org/packages/Skymly.DesignPatterns)
 
-→ [ROADMAP](https://github.com/Skymly/DesignPatterns/blob/main/docs/ROADMAP.md) · [Samples](https://github.com/Skymly/DesignPatterns/tree/main/samples) · NuGet packaging when API stabilizes.
+→ [Documentation](https://skymly.github.io/DesignPatterns.Docs/) · [Samples](https://github.com/Skymly/DesignPatterns.Samples) · [NuGet](https://www.nuget.org/packages/Skymly.DesignPatterns) · [ROADMAP](https://github.com/Skymly/DesignPatterns/blob/main/docs/ROADMAP.md) — public API still evolving; pin a version for experiments.
 
 ---
 
@@ -104,6 +106,6 @@ Issues and small, focused PRs are welcome in each repo's tracker.
 | Observables | [issues](https://github.com/Skymly/Observables/issues) |
 | DesignPatterns | [issues](https://github.com/Skymly/DesignPatterns/issues) |
 | IsaacAgent | [issues](https://github.com/Skymly/IsaacAgent/issues) |
-| Docs / Samples | [Observables.Docs](https://github.com/Skymly/Observables.Docs/issues) · [Observables.Samples](https://github.com/Skymly/Observables.Samples/issues) |
+| Docs / Samples | [Observables.Docs](https://github.com/Skymly/Observables.Docs/issues) · [Observables.Samples](https://github.com/Skymly/Observables.Samples/issues) · [DesignPatterns.Docs](https://github.com/Skymly/DesignPatterns.Docs/issues) · [DesignPatterns.Samples](https://github.com/Skymly/DesignPatterns.Samples/issues) |
 
 Also active in the [MvvmAIO](https://github.com/MvvmAIO) org — org packages on [Skym @ NuGet](https://www.nuget.org/profiles/Skym).
