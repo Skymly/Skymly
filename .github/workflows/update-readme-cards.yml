@@ -16,21 +16,81 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Optional classic/fine-grained PAT with read:user + public_repo (or Contents: Read).
+      # Falls back to the job token when the secret is unset.
+      CARD_TOKEN: ${{ secrets.README_STATS_TOKEN || github.token }}
+      STATS_OPTIONS: >-
+        username=${{ github.repository_owner }}&show_icons=true&show=reviews&rank_icon=percentile&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      # github-readme-stats can write an incomplete SVG (exit 0) when GraphQL hits
+      # RESOURCE_LIMITS_EXCEEDED; patch then fails. Retry with backoff, then keep the
+      # previous committed stats.svg so other cards can still refresh.
+      - name: Generate stats card (attempt 1)
+        continue-on-error: true
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: >-
-            username=${{ github.repository_owner }}&show_icons=true&show=reviews&rank_icon=percentile&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&ring_color=7C3AED&title_color=7C3AED&text_color=6B7280&text_bold=false&border_radius=0&include_all_commits=true
+          options: ${{ env.STATS_OPTIONS }}
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.CARD_TOKEN }}
 
-      - name: Patch stats rank display
+      - name: Patch stats rank display (attempt 1)
+        id: patch1
+        continue-on-error: true
         run: node scripts/patch-stats-rank.mjs
+
+      - name: Wait before stats retry (attempt 2)
+        if: steps.patch1.outcome == 'failure'
+        run: sleep 45
+
+      - name: Generate stats card (attempt 2)
+        if: steps.patch1.outcome == 'failure'
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.STATS_OPTIONS }}
+          path: profile/stats.svg
+          token: ${{ env.CARD_TOKEN }}
+
+      - name: Patch stats rank display (attempt 2)
+        id: patch2
+        if: steps.patch1.outcome == 'failure'
+        continue-on-error: true
+        run: node scripts/patch-stats-rank.mjs
+
+      - name: Wait before stats retry (attempt 3)
+        if: steps.patch1.outcome == 'failure' && steps.patch2.outcome == 'failure'
+        run: sleep 90
+
+      - name: Generate stats card (attempt 3)
+        if: steps.patch1.outcome == 'failure' && steps.patch2.outcome == 'failure'
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.STATS_OPTIONS }}
+          path: profile/stats.svg
+          token: ${{ env.CARD_TOKEN }}
+
+      - name: Patch stats rank display (attempt 3)
+        id: patch3
+        if: steps.patch1.outcome == 'failure' && steps.patch2.outcome == 'failure'
+        continue-on-error: true
+        run: node scripts/patch-stats-rank.mjs
+
+      - name: Keep previous stats card on failure
+        if: >-
+          steps.patch1.outcome == 'failure' &&
+          steps.patch2.outcome == 'failure' &&
+          steps.patch3.outcome == 'failure'
+        run: |
+          echo "::warning::Stats card failed after 3 attempts (likely GraphQL RESOURCE_LIMITS_EXCEEDED). Keeping previous profile/stats.svg."
+          git checkout -- profile/stats.svg
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -39,7 +99,7 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&layout=compact&langs_count=6&card_width=320&theme=transparent&hide_border=true&hide_title=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0&size_weight=0.5&count_weight=0.5&exclude_repo=${{ github.event.repository.name }}
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.CARD_TOKEN }}
 
       - name: Generate Observables pin card
         uses: stats-organization/github-readme-stats-action@v2
@@ -48,7 +108,7 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&repo=Observables&theme=transparent&hide_border=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0
           path: profile/pin-observables.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.CARD_TOKEN }}
 
       - name: Generate DesignPatterns pin card
         uses: stats-organization/github-readme-stats-action@v2
@@ -57,7 +117,7 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&repo=DesignPatterns&theme=transparent&hide_border=true&icon_color=7C3AED&title_color=7C3AED&text_color=6B7280&border_radius=0
           path: profile/pin-designpatterns.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.CARD_TOKEN }}
 
       - name: Generate activity graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
@@ -66,7 +126,7 @@ jobs:
           options: >-
             days=30&hide_border=true&hide_title=true&area=true&grid=false&bg_color=00000000&border_color=00000000&color=9CA3AF&title_color=9CA3AF&line=7C3AED&point=00000000&area_color=7C3AED&height=200&radius=0
           output_path: profile/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.CARD_TOKEN }}
 
       - name: Commit cards
         run: |

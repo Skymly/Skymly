@@ -26,6 +26,8 @@ Static SVGs in `profile/` (stats, languages, pins, activity graph). Regenerated 
 
 Manual refresh: `gh workflow run update-readme-cards.yml --repo Skymly/Skymly`
 
+Stats generation retries on GraphQL `RESOURCE_LIMITS_EXCEEDED`; if all attempts fail, the previous `profile/stats.svg` is kept and other cards still update. Optional repo secret `README_STATS_TOKEN` (PAT with `read:user` + public repo read) raises API budget vs the default `GITHUB_TOKEN`.
+
 ## Style
 
 - **Personal profile**, not a copy of MvvmAIO/.github: narrative sections, compact badge rows, Skymly-owned repos first.
