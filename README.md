@@ -17,9 +17,9 @@
 
 ### About · 关于
 
-I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — I write **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting, and I build **AI coding agents** and sample apps on the side. My active work spans **[Observables](https://github.com/Skymly/Observables)** (reactive boundaries with R3 / System.Reactive), **[DesignPatterns](https://github.com/Skymly/DesignPatterns)** (composable patterns + Roslyn diagnostics), **[IsaacAgent](https://github.com/Skymly/IsaacAgent)** (an AI coding agent for Binding of Isaac: Repentance Lua mods), and early-stage **[GitPulse](https://github.com/Skymly/GitPulse)** (a .NET MAUI GitHub client showcasing Observables). I also contribute to **[MvvmAIO](https://github.com/MvvmAIO)** when it overlaps with MVVM generators.
+I'm **Skymly** ([落笔wys](https://github.com/Skymly)) — **C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting, plus **AI coding agents** and sample apps on the side. Also active in **[MvvmAIO](https://github.com/MvvmAIO)** on MVVM generators.
 
-我是 **Skymly**（[落笔wys](https://github.com/Skymly)）—— 写 **C# / .NET** 库，靠**编译期代码生成**和**精简的运行时原语**干活，业余也做 **AI 编程助手**和样板应用。活跃于 **[Observables](https://github.com/Skymly/Observables)**（基于 R3 / System.Reactive 的响应式边界）、**[DesignPatterns](https://github.com/Skymly/DesignPatterns)**（可组合设计模式 + Roslyn 诊断）、**[IsaacAgent](https://github.com/Skymly/IsaacAgent)**（面向《以撒的结合·重生》Lua mod 的 AI 编程助手），以及早期阶段的 **[GitPulse](https://github.com/Skymly/GitPulse)**（用 Observables 驱动的 .NET MAUI GitHub 客户端样板）。也会在 **[MvvmAIO](https://github.com/MvvmAIO)** 协作 MVVM 生成器相关的工作。
+我是 **Skymly**（[落笔wys](https://github.com/Skymly)）—— 写靠**编译期代码生成**和**精简运行时原语**驱动的 **C# / .NET** 库，业余也做 **AI 编程助手**和样板应用。也会在 **[MvvmAIO](https://github.com/MvvmAIO)** 协作 MVVM 生成器。
 
 ---
 
@@ -93,9 +93,9 @@ A cross-platform **GitHub client** built with **.NET MAUI**, meant as a living s
 
 ## Now · 当前
 
-Focused on Roslyn source generators, reactive codegen for .NET, an AI coding agent for Isaac modding, and an early-stage MAUI showcase app. Active across **Observables**, **DesignPatterns**, **IsaacAgent**, **GitPulse**, and **MvvmAIO** when it overlaps with MVVM generators.
+Shipping Roslyn generators and reactive codegen; building IsaacAgent; using GitPulse as a living Observables showcase.
 
-专注于 .NET 的 Roslyn 源生成器、响应式代码生成、面向 Isaac 模组的 AI 编程助手，以及早期阶段的 MAUI 样板应用。活跃于 **Observables**、**DesignPatterns**、**IsaacAgent**、**GitPulse**，以及 MVVM 生成器相关时的 **MvvmAIO**。
+在做 Roslyn 生成器与响应式代码生成；推进 IsaacAgent；用 GitPulse 当 Observables 的活样板。
 
 ## Stats · 概览
 
