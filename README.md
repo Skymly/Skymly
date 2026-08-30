@@ -1,31 +1,44 @@
 <div align="center">
 
-<img src="./profile/header.svg" alt="Skymly · 落笔wys — .NET · Roslyn · source generators" width="100%" />
+<img src="./profile/header.svg" alt="Skymly · 落笔wys — Ink in. APIs out." width="100%" />
 
-<br />
+<img src="./profile/pipeline.svg" alt="Declare attributes, compile with Roslyn, emit generated C#, run on a tiny runtime" width="100%" />
 
-[![Location: Hong Kong](https://img.shields.io/badge/location-Hong%20Kong-7C3AED?style=flat-square)](https://github.com/Skymly)
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
 [![Roslyn](https://img.shields.io/badge/Roslyn-source%20generators-512BD4?style=flat-square&logo=dotnet)](https://github.com/dotnet/roslyn)
+[![R3](https://img.shields.io/badge/R3-reactive-7C3AED?style=flat-square)](https://github.com/Cysharp/R3)
 
 </div>
 
 ### About · 关于
 
-**C# / .NET** libraries where **compile-time codegen** and **small runtime primitives** do the heavy lifting. Also active in **[MvvmAIO](https://github.com/MvvmAIO)** on MVVM generators.
+- Compile-time **C# / .NET** libraries — attributes become working APIs, the runtime stays small.
+- Flagship: **[Observables](https://github.com/Skymly/Observables)** turns events and I/O into **R3** / **System.Reactive** streams.
+- Also **[MvvmAIO](https://github.com/MvvmAIO)** on MVVM generators.
+
+<p align="center"><img src="./profile/rule.svg" alt="" width="100%" /></p>
 
 ## Featured · 主推
 
-<p align="center">
-  <a href="https://github.com/Skymly/Observables"><img src="./profile/card-observables.svg" alt="Observables" height="122" /></a>
-  <a href="https://github.com/Skymly/DesignPatterns"><img src="./profile/card-designpatterns.svg" alt="DesignPatterns" height="122" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Skymly/GitPulse"><img src="./profile/card-gitpulse.svg" alt="GitPulse" height="122" /></a>
-  <a href="https://github.com/Skymly/dotnet-mcp"><img src="./profile/card-dotnet-mcp.svg" alt="dotnet-mcp" height="122" /></a>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/Skymly/Observables"><img src="./profile/card-observables.svg" alt="Observables" width="100%" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/Skymly/DesignPatterns"><img src="./profile/card-designpatterns.svg" alt="DesignPatterns" width="100%" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Skymly/GitPulse"><img src="./profile/card-gitpulse.svg" alt="GitPulse" width="100%" /></a>
+    </td>
+    <td>
+      <a href="https://github.com/Skymly/dotnet-mcp"><img src="./profile/card-dotnet-mcp.svg" alt="dotnet-mcp" width="100%" /></a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://skymly.github.io/Observables.Docs/">Observables docs</a>
@@ -39,11 +52,15 @@
   <code>dnx dotnet-mcp --yes</code>
 </p>
 
+<p align="center"><img src="./profile/rule.svg" alt="" width="100%" /></p>
+
 ## Now · 当前
 
 Shipping Roslyn generators and building a private desktop coding agent; GitPulse is the Observables showcase.
 
 在做 Roslyn 生成器与私有桌面编程助手；GitPulse 是 Observables 活样板。
+
+<p align="center"><img src="./profile/rule.svg" alt="" width="100%" /></p>
 
 ## Stats · 概览
 
@@ -59,6 +76,8 @@ Shipping Roslyn generators and building a private desktop coding agent; GitPulse
 <p align="center">
   <img src="./profile/activity-graph.svg" alt="GitHub activity — last 30 days" width="100%" />
 </p>
+
+<p align="center"><img src="./profile/footer.svg" alt="" width="100%" /></p>
 
 ## Contact · 交流
 

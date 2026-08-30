@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="108" viewBox="0 0 880 108" role="img" aria-label="Declare attributes, compile with Roslyn, emit generated C#, run on a tiny runtime">
+  <title>How the libraries work</title>
+  <style>
+    .fg { fill: #1f2328; }
+    .muted { fill: #656d76; }
+    .faint { fill: #8b949e; }
+    .accent { fill: #7c3aed; }
+    .mark { fill: #7c3aed; }
+    .line { stroke: #d0d7de; fill: none; }
+    .card-bg { fill: #ffffff; stroke: #d0d7de; }
+    .soft { fill: #7c3aed; opacity: 0.09; }
+    .stage { fill: #ffffff; stroke: #d0d7de; }
+    .wave-solid { fill: none; stroke: #7c3aed; stroke-width: 1.6; stroke-linecap: round; opacity: 0.28; }
+    .wave-dash { fill: none; stroke: #7c3aed; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 5 11; }
+    .icon-stroke { stroke: #7c3aed; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+    .icon-fill { fill: #7c3aed; }
+    .arrow { stroke: #7c3aed; fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.7; }
+    .rail { stroke: #7c3aed; fill: none; stroke-width: 1.2; opacity: 0.28; }
+    .title { font: 700 38px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .zh { font: 400 15px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .motto { font: 600 14px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.4px; }
+    .tag { font: 500 12px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.25px; }
+    .kicker { font: 600 10px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.6px; }
+    .card-num { font: 700 11px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.4px; }
+    .card-role { font: 600 10px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.2px; }
+    .card-title { font: 700 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .card-sub { font: 400 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .stage-title { font: 700 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.6px; }
+    .stage-sub { font: 500 10.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .fg { fill: #e6edf3; }
+      .muted { fill: #9198a1; }
+      .faint { fill: #8b949e; }
+      .accent { fill: #a78bfa; }
+      .mark { fill: #8b5cf6; }
+      .line { stroke: #30363d; }
+      .card-bg { fill: #0d1117; stroke: #30363d; }
+      .soft { fill: #a78bfa; opacity: 0.11; }
+      .stage { fill: #0d1117; stroke: #30363d; }
+      .wave-solid { stroke: #a78bfa; }
+      .wave-dash { stroke: #a78bfa; }
+      .icon-stroke { stroke: #a78bfa; }
+      .icon-fill { fill: #a78bfa; }
+      .arrow { stroke: #a78bfa; }
+      .rail { stroke: #a78bfa; }
+    }
+</style>
+  <path class="rail" d="M114 52 H774"/>
+  <g transform="translate(70 24)">
+    <rect class="stage" x="0" y="0" width="88" height="56" rx="12"/>
+    <text class="fg stage-title" x="44" y="24" text-anchor="middle">Declare</text>
+    <text class="muted stage-sub" x="44" y="42" text-anchor="middle">attributes</text>
+  </g>
+  <g transform="translate(290 24)">
+    <rect class="stage" x="0" y="0" width="88" height="56" rx="12"/>
+    <text class="fg stage-title" x="44" y="24" text-anchor="middle">Compile</text>
+    <text class="muted stage-sub" x="44" y="42" text-anchor="middle">Roslyn SG</text>
+  </g>
+  <g transform="translate(510 24)">
+    <rect class="stage" x="0" y="0" width="88" height="56" rx="12"/>
+    <text class="fg stage-title" x="44" y="24" text-anchor="middle">Emit</text>
+    <text class="muted stage-sub" x="44" y="42" text-anchor="middle">generated C#</text>
+  </g>
+  <g transform="translate(730 24)">
+    <rect class="stage" x="0" y="0" width="88" height="56" rx="12"/>
+    <text class="fg stage-title" x="44" y="24" text-anchor="middle">Run</text>
+    <text class="muted stage-sub" x="44" y="42" text-anchor="middle">tiny runtime</text>
+  </g>
+  <path class="arrow" d="M158 52 h42"/>
+  <path class="arrow" d="M194 46 l8 6 -8 6"/>
+  <path class="arrow" d="M378 52 h42"/>
+  <path class="arrow" d="M414 46 l8 6 -8 6"/>
+  <path class="arrow" d="M598 52 h42"/>
+  <path class="arrow" d="M634 46 l8 6 -8 6"/>
+  <circle class="accent" r="3.4">
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M114 52 H774"/>
+  </circle>
+  <text class="faint tag" x="440" y="100" text-anchor="middle">the compiler writes the boring parts</text>
+</svg>

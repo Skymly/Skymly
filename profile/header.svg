@@ -1,109 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="188" viewBox="0 0 880 188" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-labelledby="title desc">
   <title id="title">Skymly · 落笔wys</title>
-  <desc id="desc">.NET · Roslyn · source generators</desc>
+  <desc id="desc">Ink in. APIs out. Compile-time codegen and small runtime primitives.</desc>
   <style>
     .fg { fill: #1f2328; }
     .muted { fill: #656d76; }
     .faint { fill: #8b949e; }
     .accent { fill: #7c3aed; }
-    .accent-stroke { stroke: #7c3aed; fill: none; }
     .mark { fill: #7c3aed; }
     .line { stroke: #d0d7de; fill: none; }
     .card-bg { fill: #ffffff; stroke: #d0d7de; }
-    .soft { fill: #7c3aed; opacity: 0.08; }
-    .wave-solid { fill: none; stroke: #7c3aed; stroke-width: 1.55; stroke-linecap: round; opacity: 0.32; }
-    .wave-dash { fill: none; stroke: #7c3aed; stroke-width: 1.55; stroke-linecap: round; stroke-dasharray: 5 11; }
-    .icon-stroke { stroke: #7c3aed; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .soft { fill: #7c3aed; opacity: 0.09; }
+    .stage { fill: #ffffff; stroke: #d0d7de; }
+    .wave-solid { fill: none; stroke: #7c3aed; stroke-width: 1.6; stroke-linecap: round; opacity: 0.28; }
+    .wave-dash { fill: none; stroke: #7c3aed; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 5 11; }
+    .icon-stroke { stroke: #7c3aed; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
     .icon-fill { fill: #7c3aed; }
-    .title { font: 700 36px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .arrow { stroke: #7c3aed; fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.7; }
+    .rail { stroke: #7c3aed; fill: none; stroke-width: 1.2; opacity: 0.28; }
+    .title { font: 700 38px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
     .zh { font: 400 15px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
-    .tag { font: 500 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.2px; }
-    .card-title { font: 700 17px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .motto { font: 600 14px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.4px; }
+    .tag { font: 500 12px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.25px; }
+    .kicker { font: 600 10px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.6px; }
+    .card-num { font: 700 11px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.4px; }
+    .card-role { font: 600 10px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 1.2px; }
+    .card-title { font: 700 18px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
     .card-sub { font: 400 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
-    .card-meta { font: 500 11px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.15px; }
+    .stage-title { font: 700 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.6px; }
+    .stage-sub { font: 500 10.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
     @media (prefers-color-scheme: dark) {
       .fg { fill: #e6edf3; }
       .muted { fill: #9198a1; }
       .faint { fill: #8b949e; }
       .accent { fill: #a78bfa; }
-      .accent-stroke { stroke: #a78bfa; }
       .mark { fill: #8b5cf6; }
       .line { stroke: #30363d; }
       .card-bg { fill: #0d1117; stroke: #30363d; }
-      .soft { fill: #a78bfa; opacity: 0.10; }
+      .soft { fill: #a78bfa; opacity: 0.11; }
+      .stage { fill: #0d1117; stroke: #30363d; }
       .wave-solid { stroke: #a78bfa; }
       .wave-dash { stroke: #a78bfa; }
       .icon-stroke { stroke: #a78bfa; }
       .icon-fill { fill: #a78bfa; }
+      .arrow { stroke: #a78bfa; }
+      .rail { stroke: #a78bfa; }
     }
 </style>
 
-  <circle class="soft" cx="768" cy="36" r="96"/>
-  <circle class="soft" cx="836" cy="154" r="72"/>
-    <circle cx="620" cy="88" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="660" cy="88" r="1.1" class="accent" opacity="0.040"/>
-    <circle cx="660" cy="108" r="1.1" class="accent" opacity="0.038"/>
-    <circle cx="680" cy="68" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="680" cy="108" r="1.1" class="accent" opacity="0.042"/>
-    <circle cx="680" cy="128" r="1.1" class="accent" opacity="0.031"/>
-    <circle cx="700" cy="68" r="1.1" class="accent" opacity="0.037"/>
-    <circle cx="700" cy="88" r="1.1" class="accent" opacity="0.049"/>
-    <circle cx="700" cy="128" r="1.1" class="accent" opacity="0.035"/>
-    <circle cx="720" cy="68" r="1.1" class="accent" opacity="0.041"/>
-    <circle cx="720" cy="128" r="1.1" class="accent" opacity="0.038"/>
-    <circle cx="740" cy="48" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="740" cy="88" r="1.1" class="accent" opacity="0.059"/>
-    <circle cx="740" cy="108" r="1.1" class="accent" opacity="0.056"/>
-    <circle cx="740" cy="128" r="1.1" class="accent" opacity="0.041"/>
-    <circle cx="760" cy="48" r="1.1" class="accent" opacity="0.032"/>
-    <circle cx="760" cy="68" r="1.1" class="accent" opacity="0.048"/>
-    <circle cx="760" cy="108" r="1.1" class="accent" opacity="0.060"/>
-    <circle cx="760" cy="128" r="1.1" class="accent" opacity="0.045"/>
-    <circle cx="780" cy="48" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="780" cy="68" r="1.1" class="accent" opacity="0.050"/>
-    <circle cx="780" cy="88" r="1.1" class="accent" opacity="0.066"/>
-    <circle cx="780" cy="128" r="1.1" class="accent" opacity="0.046"/>
-    <circle cx="780" cy="148" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="800" cy="48" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="800" cy="68" r="1.1" class="accent" opacity="0.050"/>
-    <circle cx="800" cy="128" r="1.1" class="accent" opacity="0.046"/>
-    <circle cx="800" cy="148" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="820" cy="48" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="820" cy="88" r="1.1" class="accent" opacity="0.066"/>
-    <circle cx="820" cy="108" r="1.1" class="accent" opacity="0.062"/>
-    <circle cx="820" cy="128" r="1.1" class="accent" opacity="0.046"/>
-    <circle cx="820" cy="148" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="840" cy="48" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="840" cy="68" r="1.1" class="accent" opacity="0.050"/>
-    <circle cx="840" cy="108" r="1.1" class="accent" opacity="0.062"/>
-    <circle cx="840" cy="128" r="1.1" class="accent" opacity="0.046"/>
-    <circle cx="840" cy="148" r="1.1" class="accent" opacity="0.030"/>
-    <circle cx="860" cy="48" r="1.1" class="accent" opacity="0.034"/>
-    <circle cx="860" cy="68" r="1.1" class="accent" opacity="0.050"/>
-    <circle cx="860" cy="88" r="1.1" class="accent" opacity="0.066"/>
-    <circle cx="860" cy="128" r="1.1" class="accent" opacity="0.046"/>
-    <circle cx="860" cy="148" r="1.1" class="accent" opacity="0.030"/>
+  <circle class="soft" cx="760" cy="28" r="110"/>
+  <circle class="soft" cx="840" cy="168" r="78"/>
 
-  <rect class="mark" x="36" y="56" width="64" height="64" rx="18"/>
-  <path d="M50 88 C56 72 62 104 68 88 C74 72 80 104 86 88" fill="none" stroke="#ffffff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="86" cy="88" r="2.7" fill="#ffffff"/>
+  <rect class="mark" x="36" y="62" width="68" height="68" rx="20"/>
+  <path d="M51 96 C58 78 65 114 72 96 C79 78 86 114 93 96" fill="none" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="93" cy="96" r="3" fill="#ffffff"/>
 
-  <text class="fg title" x="116" y="92">Skymly</text>
-  <text class="muted zh" x="118" y="118">落笔wys</text>
-  <text class="faint tag" x="118" y="146">.NET  ·  Roslyn  ·  source generators</text>
+  <text class="kicker accent" x="122" y="78">HONG KONG</text>
+  <text class="fg title" x="120" y="118">Skymly</text>
+  <text class="muted zh" x="122" y="144">落笔wys</text>
+  <text class="fg motto" x="122" y="174">Ink in. APIs out.</text>
+  <text class="faint tag" x="122" y="194">compile-time codegen  ·  small runtime primitives</text>
 
-  <path class="wave-solid" d="M528.0 94.0 C534.5 74.0, 561.5 74.0, 568.0 94.0 C574.5 114.0, 601.5 114.0, 608.0 94.0 C614.5 74.0, 641.5 74.0, 648.0 94.0 C654.5 114.0, 681.5 114.0, 688.0 94.0 C694.5 74.0, 721.5 74.0, 728.0 94.0 C734.5 114.0, 761.5 114.0, 768.0 94.0 C774.5 74.0, 801.5 74.0, 808.0 94.0 C814.5 114.0, 841.5 114.0, 848.0 94.0 C849.6 74.0, 856.4 74.0, 858.0 94.0"/>
-  <path class="wave-dash" d="M528.0 94.0 C534.5 74.0, 561.5 74.0, 568.0 94.0 C574.5 114.0, 601.5 114.0, 608.0 94.0 C614.5 74.0, 641.5 74.0, 648.0 94.0 C654.5 114.0, 681.5 114.0, 688.0 94.0 C694.5 74.0, 721.5 74.0, 728.0 94.0 C734.5 114.0, 761.5 114.0, 768.0 94.0 C774.5 74.0, 801.5 74.0, 808.0 94.0 C814.5 114.0, 841.5 114.0, 848.0 94.0 C849.6 74.0, 856.4 74.0, 858.0 94.0">
+  <path class="wave-solid" d="M508.0 108.0 C514.4 86.0, 540.6 86.0, 547.0 108.0 C553.4 130.0, 579.6 130.0, 586.0 108.0 C592.4 86.0, 618.6 86.0, 625.0 108.0 C631.4 130.0, 657.6 130.0, 664.0 108.0 C670.4 86.0, 696.6 86.0, 703.0 108.0 C709.4 130.0, 735.6 130.0, 742.0 108.0 C748.4 86.0, 774.6 86.0, 781.0 108.0 C787.4 130.0, 813.6 130.0, 820.0 108.0 C826.2 86.0, 851.8 86.0, 858.0 108.0"/>
+  <path class="wave-dash" d="M508.0 108.0 C514.4 86.0, 540.6 86.0, 547.0 108.0 C553.4 130.0, 579.6 130.0, 586.0 108.0 C592.4 86.0, 618.6 86.0, 625.0 108.0 C631.4 130.0, 657.6 130.0, 664.0 108.0 C670.4 86.0, 696.6 86.0, 703.0 108.0 C709.4 130.0, 735.6 130.0, 742.0 108.0 C748.4 86.0, 774.6 86.0, 781.0 108.0 C787.4 130.0, 813.6 130.0, 820.0 108.0 C826.2 86.0, 851.8 86.0, 858.0 108.0">
     <animate attributeName="stroke-dashoffset" values="0;32" dur="2.6s" repeatCount="indefinite"/>
   </path>
-  <circle class="accent" cx="548" cy="74" r="3.3"/>
-  <circle class="accent" cx="628" cy="74" r="4.1">
-    <animate attributeName="r" values="4.1;6;4.1" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/>
+  <circle class="accent" cx="527.5" cy="86" r="3.4" opacity="1"/>
+  <circle class="accent" cx="566.5" cy="130" r="2.6" opacity="0.75"/>
+  <circle class="accent" cx="605.5" cy="86" r="4.2">
+    <animate attributeName="r" values="4.2;6.2;4.2" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.8s" repeatCount="indefinite"/>
   </circle>
-  <circle class="accent" cx="708" cy="74" r="3.3"/>
-  <circle class="accent" cx="788" cy="74" r="3.3"/>
-
-  <line class="line" x1="36" y1="179.5" x2="844" y2="179.5" opacity="0.85"/>
+  <circle class="accent" cx="644.5" cy="130" r="2.6" opacity="0.75"/>
+  <circle class="accent" cx="683.5" cy="86" r="3.4" opacity="1"/>
+  <circle class="accent" cx="722.5" cy="130" r="2.6" opacity="0.75"/>
+  <circle class="accent" cx="761.5" cy="86" r="3.4" opacity="1"/>
+  <circle class="accent" cx="800.5" cy="130" r="2.6" opacity="0.75"/>
 </svg>
