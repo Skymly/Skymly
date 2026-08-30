@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="124" viewBox="0 0 430 124" role="img" aria-label="GitPulse — .NET MAUI GitHub client">
+  <title>GitPulse — .NET MAUI GitHub client</title>
+  <style>
+    .fg { fill: #1f2328; }
+    .muted { fill: #656d76; }
+    .faint { fill: #8b949e; }
+    .accent { fill: #7c3aed; }
+    .accent-stroke { stroke: #7c3aed; fill: none; }
+    .mark { fill: #7c3aed; }
+    .line { stroke: #d0d7de; fill: none; }
+    .card-bg { fill: #ffffff; stroke: #d0d7de; }
+    .soft { fill: #7c3aed; opacity: 0.08; }
+    .wave-solid { fill: none; stroke: #7c3aed; stroke-width: 1.55; stroke-linecap: round; opacity: 0.32; }
+    .wave-dash { fill: none; stroke: #7c3aed; stroke-width: 1.55; stroke-linecap: round; stroke-dasharray: 5 11; }
+    .icon-stroke { stroke: #7c3aed; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .icon-fill { fill: #7c3aed; }
+    .title { font: 700 36px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .zh { font: 400 15px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .tag { font: 500 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.2px; }
+    .card-title { font: 700 17px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .card-sub { font: 400 12.5px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; }
+    .card-meta { font: 500 11px ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif; letter-spacing: 0.15px; }
+    @media (prefers-color-scheme: dark) {
+      .fg { fill: #e6edf3; }
+      .muted { fill: #9198a1; }
+      .faint { fill: #8b949e; }
+      .accent { fill: #a78bfa; }
+      .accent-stroke { stroke: #a78bfa; }
+      .mark { fill: #8b5cf6; }
+      .line { stroke: #30363d; }
+      .card-bg { fill: #0d1117; stroke: #30363d; }
+      .soft { fill: #a78bfa; opacity: 0.10; }
+      .wave-solid { stroke: #a78bfa; }
+      .wave-dash { stroke: #a78bfa; }
+      .icon-stroke { stroke: #a78bfa; }
+      .icon-fill { fill: #a78bfa; }
+    }
+</style>
+  <rect class="card-bg" x="0.5" y="0.5" width="429" height="123" rx="14"/>
+  <rect class="accent" x="0.5" y="24" width="3.5" height="76" rx="1.8"/>
+  <text class="fg card-title" x="22" y="46">GitPulse</text>
+  <text class="muted card-sub" x="22" y="70">.NET MAUI GitHub client</text>
+  <text class="faint card-meta" x="22" y="96">Living showcase for Observables</text>
+  <g transform="translate(372 42)">
+    <circle class="icon-stroke" cx="20" cy="20" r="6.5"/>
+    <circle class="icon-stroke" cx="20" cy="20" r="11.5" opacity="0.55"/>
+    <circle class="icon-stroke" cx="20" cy="20" r="16.5" opacity="0.28"/>
+    <circle class="icon-fill" cx="20" cy="20" r="2.3"/>
+  </g>
+</svg>

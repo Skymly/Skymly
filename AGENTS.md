@@ -22,7 +22,9 @@
 
 ## Profile cards
 
-Static SVGs in `profile/` (stats, languages, pins, activity graph). Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`. README embeds `./profile/stats.svg`, `./profile/top-langs.svg`, `./profile/activity-graph.svg`; Featured may also embed `./profile/pin-observables.svg` and `./profile/pin-designpatterns.svg`. Keep generating the pin SVGs even if unused — do not break the workflow.
+Static SVGs in `profile/`. Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`: `stats.svg`, `top-langs.svg`, `activity-graph.svg`, `pin-observables.svg`, `pin-designpatterns.svg`. Keep generating the pin SVGs even if unused — do not break the workflow.
+
+Hand-authored (do not overwrite in the workflow): `header.svg`, `card-observables.svg`, `card-designpatterns.svg`, `card-gitpulse.svg`, `card-dotnet-mcp.svg`. Light/dark via SVG `prefers-color-scheme`. README Featured embeds the card SVGs, not the generated pins.
 
 Manual refresh: `gh workflow run update-readme-cards.yml --repo Skymly/Skymly`
 

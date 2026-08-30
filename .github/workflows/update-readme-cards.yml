@@ -132,6 +132,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/stats.svg profile/top-langs.svg profile/pin-observables.svg profile/pin-designpatterns.svg profile/activity-graph.svg
           git diff --staged --quiet || git commit -m "Update profile stats cards."
           git push
