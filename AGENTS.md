@@ -22,7 +22,7 @@
 
 ## Profile cards
 
-Static SVGs in `profile/`. Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`: `stats.svg`, `top-langs.svg`, `activity-graph.svg`, `pin-observables.svg`, `pin-designpatterns.svg`. Keep generating the pin SVGs even if unused — do not break the workflow.
+Static SVGs in `profile/`. Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`: `stats.svg`, `top-langs.svg`, `pin-observables.svg`, `pin-designpatterns.svg`. Keep generating the pin SVGs even if unused — do not break the workflow.
 
 Hand-authored (do not overwrite in the workflow): `header.svg`, `pipeline.svg`, `rule.svg`, `footer.svg`, `card-observables.svg`, `card-designpatterns.svg`, `card-gitpulse.svg`, `card-dotnet-mcp.svg`. Light/dark via SVG `prefers-color-scheme`. README Featured embeds the card SVGs, not the generated pins. Regenerate art with `node scripts/profile-art.mjs`.
 

@@ -119,19 +119,10 @@ jobs:
           path: profile/pin-designpatterns.svg
           token: ${{ env.CARD_TOKEN }}
 
-      - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: ${{ github.repository_owner }}
-          options: >-
-            days=30&hide_border=true&hide_title=true&area=true&grid=false&bg_color=00000000&border_color=00000000&color=9CA3AF&title_color=9CA3AF&line=7C3AED&point=00000000&area_color=7C3AED&height=200&radius=0
-          output_path: profile/activity-graph.svg
-          token: ${{ env.CARD_TOKEN }}
-
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg profile/pin-observables.svg profile/pin-designpatterns.svg profile/activity-graph.svg
+          git add profile/stats.svg profile/top-langs.svg profile/pin-observables.svg profile/pin-designpatterns.svg
           git diff --staged --quiet || git commit -m "Update profile stats cards."
           git push

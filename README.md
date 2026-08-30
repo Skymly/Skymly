@@ -72,11 +72,6 @@ Shipping Roslyn generators and building a private desktop coding agent; GitPulse
     <img height="160" src="./profile/top-langs.svg" alt="Top languages" />
   </a>
 </p>
-
-<p align="center">
-  <img src="./profile/activity-graph.svg" alt="GitHub activity — last 30 days" width="100%" />
-</p>
-
 <p align="center"><img src="./profile/footer.svg" alt="" width="100%" /></p>
 
 ## Contact · 交流
