@@ -3,18 +3,18 @@
 Set under **GitHub → Settings → Profile → Bio**, or via CLI when authenticated as `Skymly`:
 
 ```powershell
-gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx) & DesignPatterns. MCP + generators. Hong Kong. @MvvmAIO."
+gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx). Also DesignPatterns, MCP. Hong Kong. @MvvmAIO."
 ```
 
 ## Recommended text
 
-> .NET + Roslyn — Observables (R3/Rx) & DesignPatterns. MCP + generators. Hong Kong. @MvvmAIO.
+> .NET + Roslyn — Observables (R3/Rx). Also DesignPatterns, MCP. Hong Kong. @MvvmAIO.
 
 | | |
 |--|--|
-| **Length** | ~95 characters (GitHub bio limit ~160) |
-| **Tone** | Professional, personable; aligned with [profile README](../README.md) |
-| **Replaces** | Prior draft that named private / non-public work |
+| **Length** | ~90 characters (GitHub bio limit ~160) |
+| **Tone** | Professional, personable; Observables-first, aligned with [profile README](../README.md) |
+| **Replaces** | Prior draft that named private / non-public work (e.g. IsaacAgent) |
 
 ## Notes
 
