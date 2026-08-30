@@ -14,7 +14,7 @@ gh api user -X PATCH -f bio=".NET + Roslyn — Observables (R3/Rx). Also DesignP
 |--|--|
 | **Length** | ~90 characters (GitHub bio limit ~160) |
 | **Tone** | Professional, personable; Observables-first, aligned with [profile README](../README.md) |
-| **Replaces** | Prior draft that named private / non-public work (e.g. IsaacAgent) |
+| **Replaces** | Prior draft that named private / non-public work |
 
 ## Notes
 
