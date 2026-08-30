@@ -22,7 +22,7 @@
 
 ## Profile cards
 
-Static SVGs in `profile/` (stats, languages, pins, activity graph). Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`. README embeds `./profile/*.svg`.
+Static SVGs in `profile/` (stats, languages, pins, activity graph). Regenerated daily and on demand by `.github/workflows/update-readme-cards.yml`. README embeds `./profile/stats.svg`, `./profile/top-langs.svg`, `./profile/activity-graph.svg`; Featured may also embed `./profile/pin-observables.svg` and `./profile/pin-designpatterns.svg`. Keep generating the pin SVGs even if unused — do not break the workflow.
 
 Manual refresh: `gh workflow run update-readme-cards.yml --repo Skymly/Skymly`
 
@@ -31,5 +31,6 @@ Stats generation retries on GraphQL `RESOURCE_LIMITS_EXCEEDED`; if all attempts 
 ## Style
 
 - **Personal profile**, not a copy of MvvmAIO/.github: narrative sections, compact badge rows, Skymly-owned repos first.
-- README: English primary with selective 简体中文 labels; stable public URLs.
+- README: English primary with selective 简体中文 (section labels / short Now line) — **not** full EN/ZH paragraph duplication; stable public URLs.
+- **Featured** (order): Observables → DesignPatterns → GitPulse → dotnet-mcp. Short cards, not essays. Do **not** feature private repos or internal product names.
 - MvvmAIO: brief mention / footer link only.
