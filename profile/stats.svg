@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">&#33853;&#31508;wys&#39; GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 69, Total Commits  : 1467, Total PRs: 708, Total PRs Reviewed: 108, Total Issues: 605, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 69, Total Commits  : 1469, Total PRs: 709, Total PRs Reviewed: 108, Total Issues: 614, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -79,7 +79,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 55.342272850140446;
+        stroke-dashoffset: 55.32123440688648;
       }
     }
   
@@ -181,7 +181,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >708</text>
+      >709</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -211,7 +211,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >605</text>
+      >614</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
