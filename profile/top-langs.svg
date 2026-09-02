@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="245.05"
+          width="245.09"
           height="8"
           fill="#7355dd"
         />
@@ -124,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.05"
+          x="245.09"
           y="0"
-          width="18.41"
+          width="18.4"
           height="8"
           fill="#3178c6"
         />
@@ -134,9 +134,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="253.46"
+          x="253.49"
           y="0"
-          width="18.41"
+          width="18.4"
           height="8"
           fill="#012456"
         />
@@ -144,9 +144,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="261.87"
+          x="261.89"
           y="0"
-          width="15.969999999999999"
+          width="15.96"
           height="8"
           fill="#000080"
         />
@@ -154,7 +154,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="267.84000000000003"
+          x="267.84999999999997"
           y="0"
           width="11.4"
           height="8"
@@ -164,7 +164,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="269.24"
+          x="269.24999999999994"
           y="0"
           width="10.76"
           height="8"
@@ -177,7 +177,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 90.76%
+        C# 90.77%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
