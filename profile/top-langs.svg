@@ -116,7 +116,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="245.09"
+          width="245.17"
           height="8"
           fill="#7355dd"
         />
@@ -124,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.09"
+          x="245.17"
           y="0"
-          width="18.4"
+          width="18.369999999999997"
           height="8"
           fill="#3178c6"
         />
@@ -134,9 +134,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="253.49"
+          x="253.54"
           y="0"
-          width="18.4"
+          width="18.369999999999997"
           height="8"
           fill="#012456"
         />
@@ -144,9 +144,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="261.89"
+          x="261.90999999999997"
           y="0"
-          width="15.96"
+          width="15.940000000000001"
           height="8"
           fill="#000080"
         />
@@ -166,7 +166,7 @@
           data-testid="lang-progress"
           x="269.24999999999994"
           y="0"
-          width="10.76"
+          width="10.75"
           height="8"
           fill="#89e051"
         />
@@ -177,28 +177,28 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 90.77%
+        C# 90.80%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 3.11%
+        TypeScript 3.10%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 3.11%
+        PowerShell 3.10%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#000080" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Lua 2.21%
+        Lua 2.20%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
