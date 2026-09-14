@@ -1,0 +1,12 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+## Local scratch
+.Local/
+
+## Public-sync checkout (Actions working copy)
+_src/
