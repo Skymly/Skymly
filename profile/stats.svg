@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">&#33853;&#31508;wys&#39; GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 117, Total Commits  : 3415, Total PRs: 2024, Total PRs Reviewed: 376, Total Issues: 2221, Contributed to (last year): 10</desc>
+        <desc id="descId">Total Stars Earned: 117, Total Commits  : 3442, Total PRs: 2055, Total PRs Reviewed: 407, Total Issues: 2251, Contributed to (last year): 10</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -79,7 +79,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 33.76965783638047;
+        stroke-dashoffset: 33.6968458578382;
       }
     }
   
@@ -188,7 +188,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >2k</text>
+      >2.1k</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -203,7 +203,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >376</text>
+      >407</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -218,7 +218,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >2.2k</text>
+      >2.3k</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
