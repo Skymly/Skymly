@@ -124,7 +124,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="211.44"
+          width="211.48"
           height="8"
           fill="#7355dd"
         />
@@ -132,9 +132,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="211.44"
+          x="211.48"
           y="0"
-          width="15.2"
+          width="15.19"
           height="8"
           fill="#3178c6"
         />
@@ -142,9 +142,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="226.64"
+          x="226.67"
           y="0"
-          width="14.6"
+          width="14.59"
           height="8"
           fill="#b845fc"
         />
@@ -152,9 +152,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.23999999999998"
+          x="241.26"
           y="0"
-          width="11.73"
+          width="11.72"
           height="8"
           fill="#f1e05a"
         />
@@ -162,7 +162,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="252.96999999999997"
+          x="252.98"
           y="0"
           width="19.58"
           height="8"
@@ -172,9 +172,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="262.54999999999995"
+          x="262.56"
           y="0"
-          width="17.45"
+          width="17.44"
           height="8"
           fill="#012456"
         />
@@ -185,7 +185,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 78.31%
+        C# 78.33%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -199,7 +199,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#b845fc" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        F# 5.41%
+        F# 5.40%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
