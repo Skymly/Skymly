@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">&#33853;&#31508;wys&#39; GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 118, Total Commits  : 3679, Total PRs: 2152, Total PRs Reviewed: 490, Total Issues: 2404, Contributed to (last year): 11</desc>
+        <desc id="descId">Total Stars Earned: 118, Total Commits  : 3679, Total PRs: 2152, Total PRs Reviewed: 491, Total Issues: 2404, Contributed to (last year): 11</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -203,7 +203,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >490</text>
+      >491</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
