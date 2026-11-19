@@ -27,15 +27,15 @@
       <a href="https://github.com/Skymly/Observables"><img src="./profile/card-observables.svg" alt="Observables" width="100%" /></a>
     </td>
     <td width="50%">
-      <a href="https://github.com/Skymly/DesignPatterns"><img src="./profile/card-designpatterns.svg" alt="DesignPatterns" width="100%" /></a>
+      <a href="https://github.com/Skymly/dotnet-mcp"><img src="./profile/card-dotnet-mcp.svg" alt="dotnet-mcp" width="100%" /></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Skymly/GitPulse"><img src="./profile/card-gitpulse.svg" alt="GitPulse" width="100%" /></a>
+      <a href="https://github.com/Skymly/PolyPage"><img src="./profile/card-polypage.svg" alt="PolyPage" width="100%" /></a>
     </td>
     <td>
-      <a href="https://github.com/Skymly/dotnet-mcp"><img src="./profile/card-dotnet-mcp.svg" alt="dotnet-mcp" width="100%" /></a>
+      <a href="https://github.com/Skymly/AssemblyMeta"><img src="./profile/card-assemblymeta.svg" alt="AssemblyMeta" width="100%" /></a>
     </td>
   </tr>
 </table>
@@ -45,20 +45,18 @@
   ·
   <a href="https://github.com/Skymly/Observables.Samples">samples</a>
   ·
-  <a href="https://www.nuget.org/profiles/Skym">NuGet</a>
+  <a href="https://github.com/Skymly/PolyPage#开发">PolyPage setup</a>
   ·
-  <a href="https://skymly.github.io/DesignPatterns.Docs/">DesignPatterns docs</a>
-  ·
-  <code>dnx dotnet-mcp --yes</code>
+  <a href="https://www.nuget.org/packages/AssemblyMeta">AssemblyMeta on NuGet</a>
+  <br />
+  <code>dnx Skymly.DotNetMcp --yes -- --roots /path/to/repo</code>
 </p>
 
 <p align="center"><img src="./profile/rule.svg" alt="" width="100%" /></p>
 
 ## Now · 当前
 
-Shipping Roslyn generators and building a private desktop coding agent; GitPulse is the Observables showcase.
-
-在做 Roslyn 生成器与私有桌面编程助手；GitPulse 是 Observables 活样板。
+在做 .NET 开发工具与浏览器双语阅读扩展。
 
 <p align="center"><img src="./profile/rule.svg" alt="" width="100%" /></p>
 

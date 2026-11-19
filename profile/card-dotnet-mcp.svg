@@ -48,7 +48,7 @@
 </style>
   <rect class="card-bg" x="0.5" y="0.5" width="429" height="135" rx="16"/>
   <rect class="accent" x="0.5" y="22" width="3.5" height="92" rx="2"/>
-  <text class="accent card-num" x="22" y="32">04</text>
+  <text class="accent card-num" x="22" y="32">02</text>
   <text class="faint card-role" x="52" y="32">MCP</text>
   <text class="fg card-title" x="22" y="68">dotnet-mcp</text>
   <text class="muted card-sub" x="22" y="96">C# · VB · F# · XAML for coding agents</text>
