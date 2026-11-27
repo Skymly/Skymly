@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">.NET design patterns toolkit: composable runtime primitives</tspan><tspan dy="1.2em" x="25">+ Roslyn source generators + diagnostics. Singleton, Factory,</tspan><tspan dy="1.2em" x="25">Strategy, Chain, Composite, Decorator, Event Aggregator,...</tspan>
+      <tspan dy="1.2em" x="25">.NET design patterns toolkit: composable runtime primitives,</tspan><tspan dy="1.2em" x="25">Roslyn source generators, and diagnostics with MSDI &#38;</tspan><tspan dy="1.2em" x="25">Autofac DI integration.</tspan>
     </text>
 
     <g transform="translate(30, 75)">

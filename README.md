@@ -45,7 +45,7 @@
   ·
   <a href="https://github.com/Skymly/Observables.Samples">samples</a>
   ·
-  <a href="https://github.com/Skymly/PolyPage#开发">PolyPage setup</a>
+  <a href="https://github.com/Skymly/PolyPage#development">PolyPage setup</a>
   ·
   <a href="https://www.nuget.org/packages/AssemblyMeta">AssemblyMeta on NuGet</a>
   <br />
